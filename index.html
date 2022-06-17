@@ -16,7 +16,7 @@
     <title>HTML CSS GIT Flexbox</title>
   </head>
   <body>
-    <header class="main-header">
+    <header class="main-header main-container">
       <img src="images/logo.png" alt="logo" class="logo" />
       <nav class="navbar">
         <a href="#">About</a>
@@ -45,21 +45,15 @@
           rerum doloribus voluptate repellat dicta dolore atque voluptatibus
           dignissimos exercitationem consequuntur! Debitis.
         </p>
-        <a href="#">Read More</a>
+        <a class="read-more-btn" href="#">Read More</a>
       </section>
       <section class="section-2">
         <h2>What we do</h2>
-        <img src="images/team.jpg" alt="team picture" />
+        <img class="team-img" src="images/team.jpg" alt="team picture" />
         <p>
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia
           incidunt eius ipsam laboriosam quisquam, accusantium, est quibusdam
           similique cupiditate id magnam accusamus amet molestias commodi minus.
-          Ducimus facere natus sapiente cupiditate exercitationem distinctio
-          dolorem quos laudantium soluta. Molestias laboriosam, vero suscipit
-          sint beatae ullam pariatur, ad rerum eligendi, possimus deleniti?
-          Voluptatibus atque aut eos, quia rerum vel aperiam tempore nisi
-          aliquam nam dolor sit aspernatur in quam doloribus doloremque
-          consequatur?
         </p>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque
@@ -68,12 +62,16 @@
           fuga nemo cumque amet non tempore doloribus libero magni! Autem nobis
           hic laborum numquam eveniet!
         </p>
-        <ul>
-          <li>One point</li>
-          <li>Two point</li>
-          <li>Three point</li>
-        </ul>
-        <a href="#">Read More</a>
+        <div class="clear-fix"></div>
+
+        <div class="bottom-content">
+          <ul>
+            <li>One point</li>
+            <li>Two point</li>
+            <li>Three point</li>
+          </ul>
+          <a class="read-more-btn" href="#">Read More</a>
+        </div>
       </section>
     </main>
     <footer class="footer">
